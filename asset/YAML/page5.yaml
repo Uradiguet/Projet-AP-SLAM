@@ -1,0 +1,19 @@
+Formation:
+  - college:
+    - duree: 2014 - 2018
+    - detail: "- Collège Langevin Wallon, Blainville sur Orne"
+    - diplome : 
+      - date: 2018
+      - detail: Brevet des collèges
+  - lycee:
+    - duree: 2018 - 2021
+    - detail: "- Lycée Dumont d’Urville, Caen"
+    - diplome: 
+      - date: 2021
+      - detail: "Bac général, spécialité: Science de l'ingénieur et Mathématiques"
+  - fac:
+    - duree : 2021 - 2023
+    - detail : "- Licence Informatique, Université de Caen"
+  - bts:
+    - duree : 2023
+    - detail: "- BTS Service Informatique aux Organisations, CaenSup St.Ursule"

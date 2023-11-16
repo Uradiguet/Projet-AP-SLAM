@@ -1,0 +1,38 @@
+Compentence:
+    
+  - programmation:
+    - html:
+      - nom: HTML5
+      - valide : 95%
+    - css:
+      - nom: CSS
+      - valide : 90%
+    - c:
+      - nom: C
+      - valide : 80%
+    - python:
+      - nom: Python
+      - valide : 75%
+    - c++:
+      - nom: C++
+      - valide : 60%
+    - php:
+      - nom: PHP
+      - valide : 20%
+    
+  - langue:
+    - francais:
+      - nom: Français
+      - valide : 100%
+    - anglais:
+      - nom: Anglais
+      - valide : 85%
+    - italien:
+      - nom: Italien
+      - valide : 40%
+    - espagnole:
+      - nom: Espagnole
+      - valide : 10%
+    - allemand:
+      - nom: Allemand
+      - valide : 10%

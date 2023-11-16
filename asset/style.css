@@ -22,24 +22,31 @@ h1{
 
 }
 
-.nav-list{
-	position: fixed;
-  	top: 0;
-  	width: 100%;
-	list-style-type: none;
+
+.nav{
+	width: 420px;
+	height: 70px;
+	position: relative;
 	background-color: #0D1E20;
+	display: flex;
+	justify-content: center;
+	z-index: 1;
+	border-radius: 10px;
 }
 
-.nav-item{
-	float: left;
+.nav .nav-list{
+	display: flex;
+	width: 350px;
+	
 }
 
-.nav-link{
-	display: block;
-  	color: white;
-  	text-align: center;
-  	padding: 14px 16px;
-  	text-decoration: none;
+.nav .nav-item{
+	position: relative;
+	list-style: none;
+	width: 70px;
+	height: 70px;
+	z-index: 1;
+	padding-top: 5%;
 }
 
 .nav-link:hover{
@@ -192,10 +199,10 @@ h1{
 .email{
 	padding-top: 2.5%;
 }
-.phone{
+.github{
 	padding-top: 2.5%;
 }
-.adress{
+.instagram{
 	padding-top: 2.5%;
 }
 
@@ -224,6 +231,10 @@ h1{
 }
 
 .A-propos p{
+	text-align: center;
+	padding: 20px 30px;
+}
+.A-propos h3{
 	text-align: center;
 	padding: 20px 30px;
 }
