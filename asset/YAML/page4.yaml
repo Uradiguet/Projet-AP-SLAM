@@ -1,13 +1,12 @@
-Experience:
-  - stage: 
-    - duree: Stage de 3eme 2018 (1 semaine) 
-    - detail: Stagiaire à Robert Bosch France site de Mondeville
-  - campus: 
-    - duree: Juillet 2022 (1 semaine) 
-    - detail: Accueil futur étudiant sur le campus 2 de l’université de Caen Normandie
-  - porte:
-    - duree: Janvier 2023 (1 Journée) 
-    - detail: Représentant étudiant sur le campus 2 lors des portes ouvertes de l’Université de Caen Normandie
-  - hyperu: 
-    - duree: Octobre 2023 - novembre 2023 (1 mois)
-    - detail: Employé polyvalent à Hyper U Blainville sur Orne
+stage: 
+  - duree: Stage de 3eme 2018 (1 semaine) 
+    detail: Stagiaire à Robert Bosch France site de Mondeville
+campus: 
+  - duree: Juillet 2022 (1 semaine) 
+    detail: Accueil futur étudiant sur le campus 2 de l’université de Caen Normandie
+porte:
+  - duree: Janvier 2023 (1 Journée) 
+    detail: Représentant étudiant sur le campus 2 lors des portes ouvertes de l’Université de Caen Normandie
+hyperu: 
+  - duree: Octobre 2023 - novembre 2023 (1 mois)
+    detail: Employé polyvalent à Hyper U Blainville sur Orne
