@@ -1,12 +1,12 @@
 titre : "Portfolio"
 
 Nav:
-  - nom: Accueil
-  - nom: A propos
-  - nom: Compétences
-  - nom: Expériences
-  - nom: Formation
-  - nom: Contact
+  - Accueil: Accueil
+  - A propos: A propos
+  - Compétences: Compétences
+  - Expériences: Expériences
+  - Formation: Formation
+  - Contact: Contact
 
 Accueil:
   - nom: "Ugo RADIGUET"

@@ -1,18 +1,18 @@
 <?php
-   /* require_once __DIR__ . '/../../yaml/yaml.php';
+    require_once __DIR__ . '/../../yaml/yaml.php';
     $yamlFilePath = __DIR__ . '/../YAML/page1.yaml';
 
     if (!file_exists($yamlFilePath)) {
         die("Error: The YAML file '$yamlFilePath' does not exist.");
-    }*/
+    }
     
     $data = yaml_parse_file($yamlFilePath);
 
    
     echo "<header>
     <ul class='nav-list'>";
-    foreach($data["Nav"] AS $nav){
-        echo "<li class='nav-item'><a href'#".$nav["nom"]."'>".ucfirst($nav["nom"])."</a><li><br>";
+    foreach($data["Nav"] AS $nav => $page){
+        echo "<li class='nav-item'><a href'#".$nav."'>".$page."</a><li>";
     }
     echo "</ul> </header>";
 

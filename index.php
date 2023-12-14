@@ -10,8 +10,8 @@
 	</head>
 
 <?php 
-    //set_include_path(get_include_path() . PATH_SEPARATOR . __DIR__);
-    //require './yaml/yaml.php';
+    set_include_path(get_include_path() . PATH_SEPARATOR . __DIR__);
+    require './yaml/yaml.php';
     echo '<body>';
     require "./asset/php/page1.php"; 
     require "./asset/php/page2.php"; 
