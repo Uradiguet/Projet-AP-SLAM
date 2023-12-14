@@ -11,8 +11,8 @@
    
     echo "<header>
     <ul class='nav-list'>";
-    foreach($data["Nav"] AS $nav => $page){
-        echo "<li class='nav-item'><a href'#".$nav."'>".$page."</a><li>";
+    foreach($data["Nav"] AS $nav){
+        echo "<li class='nav-item'><a href'#".$nav["nom"]."'>".ucfirst($nav["nom"])."</a><li>";
     }
     echo "</ul> </header>";
 
