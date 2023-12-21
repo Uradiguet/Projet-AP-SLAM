@@ -75,17 +75,41 @@ header {
   }
 
 
+.Competences{
+  font-size:17px;
+  padding-top:50px;
+  display:flex;
+  justify-content:center;
+  align-items:flex-start;
+  flex-wrap:wrap;
+}
 
-.list-competence{
-	display: grid;
-	grid-template-columns: auto auto;
-	justify-content: space-evenly;
-	list-style: none;
+.progress{
+  background-color:#dbdbdb;
+  height:7.5px;
+  width:100px;
+  margin:0px auto;
+  margin-top:5px;
+}
+.item-comp{
+  text-align:center;
+  padding:10px;
+  width:60vw;
+  margin-bottom:10px;
+  margin-top:10px;
 }
 
 .item-competence{
-	padding: 5%;
+  display: inline-block;
+  width: <?php echo $unProg["valide"]; ?>%;
 }
+
+.progress div{height:100%;}
+
+.progress .barre10, .progress .barre20, .progress .barre30{background-color:#9b443f;}
+.progress .barre40, .progress .barre50, .progress .barre60{background-color:#dda148;}
+.progress .barre70, .progress .barre80, .progress .barre90{background-color:#4682b4;}
+.progress .barre100{background-color:#6f9457;}
 
 .list-exp{
 	display: grid;
@@ -96,6 +120,10 @@ header {
 
 .item-exp{
 	padding: 5%;
+}
+#Experience{
+	margin: 10px 0 ;
+	padding: 20px 30px;
 }
 
 .Contact{
@@ -109,6 +137,11 @@ header {
 
 .Contact #Contact{
 	padding-top: 0.25%;
+}
+
+.Contact .item-contact{
+  padding-top: 2.5%;
+  list-style: none;
 }
 
 .slider {
@@ -202,6 +235,11 @@ header {
 	z-index: -1;
 }
 
+#Formation{
+	padding-bottom:  1.5%;
+}
+
+
 .list-formation .item-formation:hover::before {
 	width: 100%;
 }
@@ -230,40 +268,12 @@ header {
 	background-size: cover;
 }
 
-.email{
-	padding-top: 2.5%;
-}
-.github{
-	padding-top: 2.5%;
-}
-.instagram{
-	padding-top: 2.5%;
-}
 
-#Formation{
-	padding-bottom:  1.5%;
-}
-
-#Experience{
-	margin: 10px 0 ;
-	padding: 20px 30px;
-}
-
-#Competences{
-	margin: 10px 0 ;
-	padding: 20px 30px;
-}
 
 #A-propos{
 	margin: 10px 0 ;
 	padding: 20px 30px;
 }
-
-#Accueil{
-	margin: 10px 0 ;
-	padding: 20px 30px;
-}
-
 .A-propos p{
 	text-align: center;
 	padding: 20px 30px;
@@ -272,3 +282,9 @@ header {
 	text-align: center;
 	padding: 20px 30px;
 }
+
+#Accueil{
+	margin: 10px 0 ;
+	padding: 20px 30px;
+}
+

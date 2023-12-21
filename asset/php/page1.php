@@ -12,7 +12,7 @@
     echo "<header>
     <ul class='nav-list'>";
     foreach($data["Nav"] AS $nav){
-        echo "<li class='nav-item'><a href'#".$nav["nom"]."'>".ucfirst($nav["nom"])."</a><li>";
+        echo "<li class='nav-item'><a class='nav-link' href= #".$nav["nom"]." data-text=".$nav["nom"].">".ucfirst($nav["nom"])."</a><li>";
     }
     echo "</ul> </header>";
 
