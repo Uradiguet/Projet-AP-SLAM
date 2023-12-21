@@ -13,11 +13,11 @@
     set_include_path(get_include_path() . PATH_SEPARATOR . __DIR__);
     require './yaml/yaml.php';
     echo '<body>';
-    require "./asset/php/page1.php"; 
-    require "./asset/php/page2.php"; 
-    require "./asset/php/page3.php"; 
-    require "./asset/php/page4.php"; 
-    require "./asset/php/page5.php"; 
-    require "./asset/php/page6.php"; 
+    include("./asset/php/page1.php"); 
+    include("./asset/php/page2.php"); 
+    include("./asset/php/page3.php"); 
+    include("./asset/php/page4.php"); 
+    include("./asset/php/page5.php"); 
+    include("./asset/php/page6.php"); 
     echo '</body>';
 ?>
