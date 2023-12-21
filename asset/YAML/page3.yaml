@@ -9,10 +9,11 @@ programmation:
     valide : 80
   - nom: Python
     valide : 75
-  - nom: C++
-    valide : 60
   - nom: PHP
+    valide : 35
+  - nom: SQL
     valide : 20
+  
     
 langue:
   - nom: Français
@@ -21,7 +22,7 @@ langue:
     valide : 85
   - nom: Italien
     valide : 40
-  - nom: Espagnole
+  - nom: Espagnol
     valide : 10
   - nom: Allemand
     valide : 10

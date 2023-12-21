@@ -34,5 +34,6 @@
     foreach($data["hyperu"] AS $untrav){
         echo "".ucfirst($untrav["duree"])."<br>- ".$untrav["detail"]."</li>\n";
     }
+    echo "<a class = 'cv' href = './../CV.pdf'>CV<img href = './../img/cv.png'></a>";
     echo "</ul></div>";
- ?>   
+ ?>

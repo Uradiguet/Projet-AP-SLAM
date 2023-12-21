@@ -8,16 +8,15 @@
 		<link rel="stylesheet" href="./asset/style.css">
 		<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@900&display=swap" rel="stylesheet"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
 	</head>
-
+    <body>
 <?php 
     set_include_path(get_include_path() . PATH_SEPARATOR . __DIR__);
-    require './yaml/yaml.php';
-    echo '<body>';
+    
     include("./asset/php/page1.php"); 
     include("./asset/php/page2.php"); 
     include("./asset/php/page3.php"); 
     include("./asset/php/page4.php"); 
     include("./asset/php/page5.php"); 
     include("./asset/php/page6.php"); 
-    echo '</body>';
 ?>
+    </body>
