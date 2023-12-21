@@ -1,5 +1,6 @@
 {
     "require": {
-        "symfony/yaml": "^6.3"
+        "phpmailer/phpmailer": "^6.9",
+        "symfony/yaml": "^7.0"
     }
 }
