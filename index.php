@@ -10,7 +10,10 @@
         <link rel="shortcut icon" href="">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
         <script src="https://www.google.com/recaptcha/api.js" async defer></script>
-        <?php require_once './yaml/yaml.php'; ?>
+        <?php 
+include_once './vendor/autoload.php';
+require_once './yaml/yaml.php'; 
+?>
     </head>
     <body>
 
