@@ -1,12 +1,6 @@
 <?php
-    require_once __DIR__ . '/../../yaml/yaml.php';
-    $yamlFilePath = __DIR__ . '/../YAML/page1.yaml';
 
-    if (!file_exists($yamlFilePath)) {
-        die("Error: The YAML file '$yamlFilePath' does not exist.");
-    }
-    
-    $data = yaml_parse_file($yamlFilePath);
+    $data = yaml_parse_file('../YAML/page1.yaml');
 
    
     echo "<header>
@@ -16,12 +10,7 @@
     }
     echo "</ul> </header>";
 
-
-    
     echo "<h1>".$data["titre"]."</h1>\n";
-
-
-
 
     echo "<div class='Accueil'>
     <h2 id='Accueil'><i class='fa-solid fa-house fa-2xl'style='color: #4c757a;'></i>Accueil</h2>\n";
