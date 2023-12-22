@@ -73,7 +73,8 @@ header {
     transition: 0.5s;
     -webkit-text-stroke: 1px transparent;
   }
-h3{
+
+.titre-comp{
   margin: 5%;
 }
 
@@ -102,8 +103,8 @@ h3{
   font-size: 17px;
   padding-top: 50px;
   display: flex;
-  justify-content: space-around;
-  align-items: flex-end;
+  justify-content: center;
+  align-items: center;
   flex-wrap: wrap;
 }
 
@@ -111,16 +112,23 @@ h3{
   height: 100%;
 }
 
-.barre10 { background-color: #9b443f; }
-.barre20 { background-color: #9b443f; }
-.barre30 { background-color: #9b443f; }
-.barre40 { background-color: #dda148; }
-.barre50 { background-color: #dda148; }
-.barre60 { background-color: #dda148; }
-.barre70 { background-color: #4682b4; }
-.barre80 { background-color: #4682b4; }
-.barre90 { background-color: #4682b4; }
-.barre100 { background-color: #6f9457; }
+.barre10, .barre20, .barre30 { 
+  background-color: #9b443f; 
+  border: 1px solid #0D1E20;
+}
+.barre40, .barre50, .barre60 { 
+  background-color: #dda148; 
+  border: 1px solid #0D1E20;
+}
+.barre70, .barre80, .barre90 { 
+  background-color: #4682b4;
+  border: 1px solid #0D1E20;
+ }
+
+.barre100 { 
+  background-color: #6f9457; 
+  border: 1px solid #0D1E20;
+}
 
 .list-comp {
   padding: 0.5%;
@@ -265,19 +273,19 @@ h3{
 	background-size: cover;
 }
 
-.list-formation .item-formation:nth-child(2)::before {
+.list-formation .item-formation:nth-child(3)::before {
 	background-image: url(../asset/img/Lycee.jpg);
 	background-position: center;
 	background-size: cover;
 }
 
-.list-formation .item-formation:nth-child(3)::before {
+.list-formation .item-formation:nth-child(5)::before {
 	background-image: url(../asset/img/fac.jpg);
 	background-position: 50% 20%;
 	background-size: cover;
 }
 
-.list-formation .item-formation:nth-child(4)::before {
+.list-formation .item-formation:nth-child(7)::before {
 	background-image: url(../asset/img/bts.jpg);
 	background-position: 50% 80%;
 	background-size: cover;
@@ -303,3 +311,32 @@ h3{
 	padding: 20px 30px;
 }
 
+.Contactform {
+  height:100vh;
+}
+.Contactform h1,h2 {
+  text-align: center;
+}
+
+.Contactform h2 {
+  padding-top:2em;
+}
+
+.Contactform .formwrapper {
+  padding-left: 10%;
+  padding-top:7%;
+}
+
+.Contactform .sujet, .nom, .message {
+  display:flex;
+  padding:1em;
+}
+
+.Contactform p {
+  margin-right:2em;
+}
+
+.Contactform #submit_mail {
+  margin-left:10%;
+  padding:0.5em;
+}

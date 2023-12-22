@@ -1,12 +1,16 @@
 <?php
+    $yamlFilePath = __DIR__ . '/../YAML/page1.yaml';
 
-    $data = yaml_parse_file('../YAML/page1.yaml');
+    if (!file_exists($yamlFilePath)) {
+        die("Error: The YAML file '$yamlFilePath' does not exist.");
+    }
 
+    $data = yaml_parse_file($yamlFilePath);
    
     echo "<header>
     <ul class='nav-list'>";
     foreach($data["Nav"] AS $nav){
-        echo "<li class='nav-item'><a class='nav-link' href= #".$nav["nom"]." data-text=".$nav["nom"].">".ucfirst($nav["nom"])."</a><li>";
+        echo "<li class='nav-item'><a class='nav-link' href= #".$nav["nom"]." data-text=".$nav["nom"].">".ucfirst($nav["nom"])."</a></li>";
     }
     echo "</ul> </header>";
 
@@ -41,4 +45,4 @@
         </div>
         </div>";
 
- ?>   
+ ?>
