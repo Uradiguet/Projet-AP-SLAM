@@ -311,32 +311,3 @@ header {
 	padding: 20px 30px;
 }
 
-.Contactform {
-  height:100vh;
-}
-.Contactform h1,h2 {
-  text-align: center;
-}
-
-.Contactform h2 {
-  padding-top:2em;
-}
-
-.Contactform .formwrapper {
-  padding-left: 10%;
-  padding-top:7%;
-}
-
-.Contactform .sujet, .nom, .message {
-  display:flex;
-  padding:1em;
-}
-
-.Contactform p {
-  margin-right:2em;
-}
-
-.Contactform #submit_mail {
-  margin-left:10%;
-  padding:0.5em;
-}

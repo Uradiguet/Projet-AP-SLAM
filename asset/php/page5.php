@@ -6,11 +6,11 @@
     }
 
     $data = yaml_parse_file($yamlFilePath);
-
-    echo "<div class='Formation'>
-    <h2 id='Formation'><i class='fa-solid fa-school fa-2xl' style='color: #4c757a;' ></i>Formation</h2>\n
-    <ul class='list-formation'";
-
+?>
+    <div class='Formation'>
+    <h2 id='Formation'><i class='fa-solid fa-school fa-2xl' style='color: #4c757a;' ></i>Formation</h2>
+    <ul class='list-formation'
+<?php
     echo "<h3>Collège</h3>\n";
     foreach($data["college"] AS $unColl){
         echo "<li class='item-formation'><a href='https://www.education.gouv.fr/annuaire/14550/blainville-sur-orne/college/0141940h/college-langevin-wallon.html'>".ucfirst($unColl["duree"])." ".$unColl["detail"]."\n";

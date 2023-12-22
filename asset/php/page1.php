@@ -6,22 +6,27 @@
     }
 
     $data = yaml_parse_file($yamlFilePath);
-   
-    echo "<header>
-    <ul class='nav-list'>";
+?>
+    <header>
+    <ul class='nav-list'>
+<?php
     foreach($data["Nav"] AS $nav){
         echo "<li class='nav-item'><a class='nav-link' href= #".$nav["nom"]." data-text=".$nav["nom"].">".ucfirst($nav["nom"])."</a></li>";
     }
-    echo "</ul> </header>";
+?>
+    </ul> </header>
 
-    echo "<h1>".$data["titre"]."</h1>\n";
+    <h1><?=$data["titre"]?></h1>
 
-    echo "<div class='Accueil'>
-    <h2 id='Accueil'><i class='fa-solid fa-house fa-2xl'style='color: #4c757a;'></i>Accueil</h2>\n";
+    <div class='Accueil'>
+
+    <h2 id='Accueil'><i class='fa-solid fa-house fa-2xl'style='color: #4c757a;'></i>Accueil</h2>
+<?php
     foreach($data["Accueil"] AS $unAccueil){
         echo "<p>".ucfirst($unAccueil["nom"])."<br> Age : ".$unAccueil["age"]."<br>".$unAccueil["accroche"]."</p>\n";
     }
-    echo "<div class='slider'>
+?>
+    <div class='slider'>
         <div class='slider-viewport'>
             <div id='img1'>
                 <div id='img2'>
@@ -43,6 +48,6 @@
                 <a href='#img2'></a>
             </div>
         </div>
-        </div>";
+    </div>
 
- ?>
+ 
