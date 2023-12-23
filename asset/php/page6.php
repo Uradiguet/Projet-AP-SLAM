@@ -25,7 +25,7 @@
     }
 ?>
 
-    <h2>Me contactez</h2>
+    <h2>Me contacter</h2>
 
     <div class='formwrapper'>
     <form action='./contact.php' method='post' onsubmit='return validateForm()'>
