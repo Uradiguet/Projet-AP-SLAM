@@ -11,7 +11,7 @@
 
     <div class='Contact'>
     <footer>
-    <h2 id='Contact'>Contact</h2>
+    <h2 id='Contact'><i class="fa-solid fa-phone fa-2xl" style='color: #4c757a;'></i>Contact</h2>
 
 <?php
     foreach($data["Contact"] AS $unCont){
