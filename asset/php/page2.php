@@ -12,7 +12,7 @@
     <div class ='A-propos'>
     <h2 id='A propos'><i class='fa-solid fa-user fa-2xl' style='color: #4c757a;'></i>A propos</h2>
     <div class = "logo">
-        <img src = "./asset/img/logo.png" width = "100">
+        <img src = "./asset/img/logo.jpg" width = "150">
     </div>
 <?php
     foreach($data["A-propos"] AS $unPropos){
