@@ -17,7 +17,8 @@ require_once './yaml/yaml.php';
     </head>
     <body>
 
-        <?php 
+        <?php
+
             include("asset/php/page1.php"); 
             include("asset/php/page2.php"); 
             include("asset/php/page3.php"); 
