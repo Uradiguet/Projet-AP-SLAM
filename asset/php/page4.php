@@ -1,13 +1,6 @@
 <?php
-    $yamlFilePath = __DIR__ . '/../YAML/page4.yaml';
-
-    if (!file_exists($yamlFilePath)) {
-        die("Error: The YAML file '$yamlFilePath' does not exist.");
-    }
-
-    $data = yaml_parse_file($yamlFilePath);
-
-    ?>
+    $data = yaml_parse_file('/../YAML/page4.yaml');
+?>
     <div class='Experience'>
     
         <h2 id='Expériences'><i class='fa-solid fa-briefcase fa-2xl' style='color: #4c757a;'></i>Expériences</h2>

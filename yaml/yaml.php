@@ -3,7 +3,7 @@
 /*****************************************************
 https://symfony.com/doc/current/components/yaml.html
 ******************************************************/
-
+include_once './../vendor/autoload.php';
 use Symfony\Component\Yaml\Yaml;
 use Symfony\Component\Yaml\Exception\ParseException;
 if(!function_exists('yaml_parse_file')){
