@@ -1,5 +1,12 @@
 <?php
-    $data = yaml_parse_file('/../YAML/page2.yaml');
+
+    $yamlFilePath = __DIR__ . '/../YAML/page2.yaml';
+
+    if (!file_exists($yamlFilePath)) {
+        die("Error: The YAML file '$yamlFilePath' does not exist.");
+    }
+
+    $data = yaml_parse_file($yamlFilePath);
 ?>
 
     <div class ='A-propos'>

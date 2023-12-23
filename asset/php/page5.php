@@ -1,5 +1,11 @@
 <?php
-    $data = yaml_parse_file('/../YAML/page5.yaml');
+    $yamlFilePath = __DIR__ . '/../YAML/page5.yaml';
+
+    if (!file_exists($yamlFilePath)) {
+        die("Error: The YAML file '$yamlFilePath' does not exist.");
+    }
+
+    $data = yaml_parse_file($yamlFilePath);
 ?>
     <div class='Formation'>
     <h2 id='Formation'><i class='fa-solid fa-school fa-2xl' style='color: #4c757a;' ></i>Formation</h2>
