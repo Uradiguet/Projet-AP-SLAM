@@ -12,7 +12,7 @@
         <script src="https://www.google.com/recaptcha/api.js" async defer></script>
         <?php 
 include_once './vendor/autoload.php';
-require_once './yaml/yaml.php'; 
+/*require_once './yaml/yaml.php'; */
 ?>
     </head>
     <body>
